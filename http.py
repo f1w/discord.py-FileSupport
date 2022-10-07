@@ -266,8 +266,6 @@ def handle_message_parameters(
                 }
             )
 
-    print(payload, multipart, files)
-
     return MultipartParameters(payload=payload, multipart=multipart, files=files)
 
 
